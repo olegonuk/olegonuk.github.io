@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГБУ "Центральный государственный архив города Москвы"</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header start -->
+        <header class="header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__wrapper">
+                        <!-- visually-impaired -->
+                        <div class="header-top-visually-impaired__block">
+                            <div class="header-top-visually-impaired__img">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hover-icon"
+                                        d="M10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0ZM10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2ZM10 5C11.0526 5.0004 12.0782 5.33297 12.9307 5.95034C13.7832 6.56771 14.4192 7.43837 14.748 8.4383C15.0767 9.43822 15.0815 10.5164 14.7617 11.5192C14.4419 12.522 13.8137 13.3984 12.9668 14.0233C12.1198 14.6483 11.0972 14.99 10.0446 14.9998C8.99211 15.0096 7.96332 14.687 7.10486 14.0779C6.24639 13.4688 5.60204 12.6043 5.26361 11.6076C4.92517 10.611 4.90991 9.53287 5.22 8.527C5.45392 9.04971 5.86027 9.47622 6.37106 9.73516C6.88184 9.9941 7.46606 10.0698 8.02595 9.94946C8.58584 9.82916 9.08743 9.52022 9.44677 9.07433C9.80612 8.62844 10.0014 8.07267 10 7.5C10.0001 7.01847 9.8612 6.54714 9.59989 6.14268C9.33858 5.73821 8.96603 5.41781 8.527 5.22C8.993 5.077 9.487 5 10 5Z"
+                                        fill="#0a4469" />
+                                </svg>
+                                <!-- <img src="img/visually-impaired-icon.svg" alt="visually-impaired-icon"> -->
+                            </div>
+                            <a class="visually-impaired__link hover-color" href="#">Версия для слабовидящих</a>
+                        </div>
+                        <!-- mobile header-search-->
+                        <div class="mobile-header-search__block">
+                            <form class="mobile-header-search__form" action="/">
+                                <div class="search-icon__block">
+                                    <img src="img/search-icon.svg" alt="search-icon">
+                                </div>
+                                <input class="mobile-header-search__input" type="search" placeholder="Поиск">
+                                <div class="tab-selected-search">Везде</div>
+                            </form>
+                        </div>
+                        <!-- address -->
+                        <div class="header-top-address__block">
+                            <p class="header-top-address__title">117393, Москва, ул.Профсоюзная, д.80</p>
+                        </div>
+                        <!-- user-logout -->
+                        <div id="btn-logout" class="header-top-user-logout__block">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="hover-icon"
+                                    d="M4 22C4 19.8783 4.84285 17.8434 6.34315 16.3431C7.84344 14.8429 9.87827 14 12 14C14.1217 14 16.1566 14.8429 17.6569 16.3431C19.1571 17.8434 20 19.8783 20 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13Z"
+                                    fill="#0a4469" />
+                            </svg>
+                            <p class="header-top-user-logout__title hover-color">Вход/Регистрация</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-content  -->
+            <div class="header-content">
+                <div class="container">
+                    <div class="header-content__wrapper">
+                        <!-- logo block -->
+                        <div class="logo-block">
+                            <a href="/index.html" class="logo-img__block">
+                                <img src="img/logo-new-1.svg" alt="logo_archive">
+                            </a>
+                            <div class="header-content-title__block">
+                                <p class="header-content__title">Главархив Москвы</p>
+                                <p class="header-content__subtitle">
+                                    Государственное бюджетное учреждение города Москвы
+                                    «Центральный государственный архив города Москвы»
+                                </p>
+                            </div>
+                        </div>
+                        <div id="burger__nav" class="navbar__burger">
+                            <span class="burger__menu"></span>
+                        </div>
+                        <!-- header menu -->
+                        <div class="header-content__menu">
+                            <ul class="header-menu">
+                                <li class="header-menu__list">
+                                    <a href="#" class="header-menu__link link-hover">«Моя семья»</a>
+                                    <ul class="header-submenu">
+                                        <li class="header-submenu__list-title">
+                                            <a href="#" class="header-menu__link link-hover">«Моя
+                                                семья»</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/how-search-metric-books-page.html" class="header-submenu__link link-hover">В помощь
+                                                иследователю</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/metric-books-page.html" class="header-submenu__link link-hover">Метрические книги</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Актовые книги других
+                                                конфессий</a>
+                                            <div class="arrow-menu-content"></div>
+                                            <ul class="sub-submenu">
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Ревизские сказки</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Исповедные ведомости</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/how-search-metric-books-moscow-map-page.html" class="header-submenu__link link-hover">Карта Москвы 1915 г.</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/metric-books-index-parishes-page.html" class="header-submenu__link link-hover">Указатели приходов</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="foundations-funds-page.html" class="header-menu__link link-hover">Фонды</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/about-archive-history-page.html" class="header-menu__link link-hover">Об архиве</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/activity-exhibition-one-doc-page.html" class="header-menu__link link-hover">Деятельность</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/services-prices-page.html" class="header-menu__link link-hover">Услуги и расценки</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/readingroom-page.html" class="header-menu__link link-hover">Читальный зал</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/showroom-page.html" class="header-menu__link link-hover">Выставочный зал</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-search -->
+            <div class="header-search">
+                <div class="container">
+                    <form class="header-search__form hover-form" action="/">
+                        <input class="search-form__field props-placeholder" type="search" placeholder="Поиск по сайту">
+                        <div class="search-form-button__block">
+                            <div class="filter-button__wrapper">
+                                <div
+                                    class="btn-all-search filter-search-fild-btn btn-tab-hover search-fild-btn__active">
+                                    Везде</div>
+                                <div class="btn-fonds-search filter-search-fild-btn btn-tab-hover">Фонды</div>
+                                <div class="btn-register-search filter-search-fild-btn btn-tab-hover">Описи</div>
+                            </div>
+                            <button class="search-form__button btn-serch-field btn-hover">Поиск</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- mobile-menu -->
+            <div class="mobile-menu__wrapper">
+                <div class="mobile-container__wrapper">
+                    <!-- logo block -->
+                    <div class="logo-block">
+                        <!-- mobile-logo__wrapper -->
+                        <div class="mobile-logo__wrapper">
+                            <!-- logo-img__block -->
+                            <div class="logo-img__block">
+                                <img src="img/logo-new-1.svg" alt="logo_archive">
+                            </div>
+                            <!-- header-content-title__block -->
+                            <div class="header-content-title__block">
+                                <p class="header-content__title">Главархив Москвы</p>
+                                <p class="header-content__subtitle">
+                                    Государственное бюджетное учреждение города Москвы
+                                    «Центральный государственный архив города Москвы»
+                                </p>
+                            </div>
+                        </div>
+                        <!-- btn-mobile-close -->
+                        <div id="btn-mobile-close" class="btn-close__mobile-menu">
+                            <div class="btn-close-block"></div>
+                        </div>
+                    </div>
+                    <!-- header-menu -->
+                    <ul class="header-menu">
+                        <li class="header-menu__list">
+                            <a href="/metric-books-page.html" class="header-menu__link">«Моя семья»</a>
+                            <div class="header-menu-arrow arrow-menu-content"></div>
+                            <ul class="header-submenu">
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">В помощь
+                                        иследователю</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Метрические книги</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Актовые книги других
+                                        конфессий</a>
+                                    <div class="header-submenu-arrow arrow-menu-content"></div>
+                                    <ul class="sub-submenu">
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Ревизские сказки</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Исповедные ведомости</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Карта Москвы 1915 г.</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Указатели приходов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/foundations-funds-page.html" class="header-menu__link">Фонды</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/about-archive-history-page.html" class="header-menu__link">Об архиве</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/activity-exhibition-one-doc-page.html" class="header-menu__link">Деятельность</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Услуги и расценки</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Читальный зал</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Выставочный зал</a>
+                        </li>
+                    </ul>
+                    <!-- header-top-address__block -->
+                    <div class="header-top-address__block">
+                        <p class="header-top-address__title">117393, Москва, ул.Профсоюзная, д.80</p>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile-search-popup -->
+            <div class="mobile-header-search-popup__wrapper">
+                <div class="mobile-search-popup__block">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu btn-close-popup">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <!-- search-form-popup__block -->
+                    <div class="search-form-popup__block">
+                        <form class="search-form__popup" action="/">
+                            <div class="search-icon__block">
+                                <img src="img/search-icon.svg" alt="search-icon">
+                            </div>
+                            <input class="search-form-popup__input" type="search" placeholder="Поисковый запрос">
+                        </form>
+                    </div>
+                    <!-- where-find-sections__block -->
+                    <div class="where-find-sections__block">
+                        <p class="where-find-sections__title">Где искать?</p>
+                        <div class="find-sections-tab__wrapper">
+                            <div class="find-sections__tab find-sections-all">Везде</div>
+                            <div class="find-sections__tab find-sections-fonds">Фонды</div>
+                            <div class="find-sections__tab find-sections-register">Описи</div>
+                        </div>
+
+                    </div>
+                    <div class="btn-apply-selected-value btn-general btn-deep-blue">Искать</div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+        <!-- Content start-->
+        <main class="main">
+            <div class="container">
+                <div class="main-content__wrapper">
+                    <!-- Breadcrumbs-block start -->
+                    <div class="breadcrumbs-block">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <a href="#" class="breadcrumbs__link breadcrumbs__link-active">Метрические книги</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs-block end -->
+                    <!--title-page-block  -->
+                    <div class="title-page__block search-parishes-block">
+                        <p class="page__title">Путеводители</p>
+                    </div>
+                    <!-- foundations-guide-info__block -->
+                    <section class="foundations-guide-info__block">
+                        <div class="foundations-guide-info__wrapper">
+                            <!-- attention-info__description -->
+                            <div class="attention-info__description">
+                                <div class="attention-info__picture">
+                                    <img src="img/exclamation-point-icon-2.svg" alt="exclamation-point-icon">
+                                </div>
+                                <p class="attention-info__text">
+                                    Уважаемые пользователи, информируем Вас, что в соответствии с Соглашением от 28
+                                    октября 2015 года между
+                                    Правительством
+                                    Москвы и Правительством Московской области о приеме и передаче архивных документов,
+                                    находящихся на хранении в
+                                    государственных архивах, и приказом Главархива Москвы «О приеме в ГБУ «ЦГА Москвы» и
+                                    передаче в ГКУ «ЦГАМО» архивных
+                                    фондов» № 259 от 26.11.2015 г. в 2016 - 2018 годах из Отдела хранения документов
+                                    общественно-политической истории
+                                    Москвы
+                                    ГБУ «ЦГА Москвы» было передано 2134 архивных фонда в Государственное казенное
+                                    учреждение Московской области
+                                    «Центральный
+                                    государственный архив Московской области».
+                                </p>
+                            </div>
+                            <!-- list-donated-funds__block -->
+                            <div class="list-donated-funds__block">
+                                <p class="list-donated-funds__itle">Список переданных фондов включает:</p>
+                                <ul class="list-donated-funds__lists">
+                                    <li class="list-donated-funds__list">
+                                        Ленинский уездный комитет ВКП(б)
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Московский окружной комитет ВЛКСМ
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Московский промышленный областной комитет ВЛКСМ
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Комитеты ВЛКСМ предприятий и учреждений Московской области
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Московский сельский областной комитет ВЛКСМ
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Районные контрольные комиссии ВКП(б)
+                                    </li>
+                                    <li class="list-donated-funds__list">
+                                        Первичные организации КПСС (ВКП(б) предприятий и учреждений Московской области
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="info-list-donated-funds__block">
+                                <p class="info-list-donated-funds__title">С полным списком переданных фондов в настоящий
+                                    момент можно ознакомиться в читальных
+                                    залах ГБУ «ЦГА Москвы»:</p>
+                                <div class="info-list-donated-funds__wrapper">
+                                    <div class="info-donated-funds">
+                                        <p class="info-donated-funds__title">Читальный зал №2</p>
+                                        <p class="info-donated-funds__address">
+                                            ул. Профсоюзная, дом 82, корпус 1
+                                        </p>
+                                        <p class="info-donated-funds__tel">8 (499) 724-34-60)</p>
+                                    </div>
+                                    <div class="info-donated-funds">
+                                        <p class="info-donated-funds__title">Читальный зал №3</p>
+                                        <p class="info-donated-funds__address">
+                                            ул. Международная, дом 10, строение 4
+                                        </p>
+                                        <p class="info-donated-funds__tel">8 (495) 678-73-67
+                                        </p>
+                                        <p class="info-donated-funds__tel">
+                                            8 (499) 764-27-73
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- search-funds__block -->
+                    <div class="search-funds__block search-inventory-form">
+                        <p class="search-funds__title">
+                            Поиск по описям
+                        </p>
+                        <div class="search-inventory-form__wrapper">
+                            <form class="search-inventory__form-result" action="/">
+                                <input class="search-funds__input-result props-placeholder hover-input" type="text"
+                                    placeholder="Поиск по фондам">
+                                <div class="search-inventory-form-btn__wrapper">
+                                    <button
+                                        class="search-inventory-form__btn btn-general btn-deep-blue btn-hover">Поиск</button>
+                                    <button class="search-inventory-form__btn-reset link-hover">Сбросить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- foundations-guide-content__block -->
+                    <section class="foundations-guide-content__block">
+                        <div class="foundations-guide-content__wrapper">
+                            <!-- sidebar-all-funds block -->
+                            <div class="sidebar-all-funds__block sidebar-foundations">
+                                <div class="select-all-funds__block">
+                                    <p class="select-all-funds__title">Все фонды</p>
+                                    <!-- select-fund-tab-active-value" -->
+                                    <div class="select-fond-tab-active-value"></div>
+                                    <!-- select-archive__tabs -->
+                                    <div class="select-all-funds__tabs">
+                                        <div class="select-all-funds__tab active link-hover">
+                                            <p class="select-fund__name">ОХД до 1917г.</p>
+                                            <p class="select-fund__desc">Отдел хранения документов до 1917 года</p>
+                                        </div>
+                                        <div class="select-all-funds__tab link-hover">
+                                            <p class="select-fund__name">ОХД после 1917г.</p>
+                                            <p class="select-fund__desc">Отдел хранения документов после 1917 года</p>
+                                        </div>
+                                        <div class="select-all-funds__tab link-hover">
+                                            <p class="select-fund__name">ОХДЛСМ</p>
+                                            <p class="select-fund__desc">Отдел хранения документов личных собраний
+                                                Москвы</p>
+                                        </div>
+                                        <div class="select-all-funds__tab link-hover">
+                                            <p class="select-fund__name">ОХДОПИМ</p>
+                                            <p class="select-fund__desc">Отдел хранения документов
+                                                общественно-политической истории Москвы</p>
+                                        </div>
+                                        <div class="select-all-funds__tab link-hover">
+                                            <p class="select-fund__name">ОХНТДМ</p>
+                                            <p class="select-fund__desc">Отдел хранения научно- технической документации
+                                                Москвы</p>
+                                        </div>
+                                        <div class="select-all-funds__tab link-hover">
+                                            <p class="select-fund__name">ОХАД</p>
+                                            <p class="select-fund__desc">Отдел хранения аудиовизуальных документов</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- all-funds-content__block -->
+                            <div class="all-funds-content__block">
+                                <!-- all-funds-content__wrapper -->
+                                <div class="all-funds-content__wrapper">
+                                    <!-- all-funds-content__header -->
+                                    <div class="all-funds-content__header">
+                                        <p class="all-funds-content__title">
+                                            Результаты поиска
+                                        </p>
+                                        <p class="serch-funds-field__result">
+                                            Найдено:
+                                            <span class="funds-field__result-amount">5456</span>
+                                            результатов
+                                        </p>
+                                    </div>
+                                    <!-- show-sort__block -->
+                                    <div class="show-sort__block">
+                                        <p class="show-sort__title">Показывать по:</p>
+                                        <div class="show-sort__title-value">
+                                            <p class="show-sort__value">10</p>
+                                            <ul class="show-sort__lists">
+                                                <li data-value-count="10" class="show-sort__list hover-color">10</li>
+                                                <li data-value-count="20" class="show-sort__list hover-color">20</li>
+                                                <li data-value-count="50" class="show-sort__list hover-color">50</li>
+                                                <li data-value-count="100" class="show-sort__list hover-color">100</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- list-funds__block -->
+                                    <div class="list-funds__block">
+                                        <!-- list-funds-header -->
+                                        <div class="list-funds__header funds--page">
+                                            <p class="funds-item__number-funds funds-item-header__title">
+                                                &#8470; Фонда
+                                            </p>
+                                            <p class="funds-item__name-funds funds-item-header__title">
+                                                Название фонда
+                                            </p>
+                                            <p class="funds-item__date-funds funds-item-header__title">
+                                                Годы
+                                            </p>
+                                        </div>
+                                        <!-- funds-items__wrapper -->
+                                        <div class="funds-items__wrapper">
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)
+                                                    </a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- funds__item -->
+                                            <div class="funds__item funds--page">
+                                                <!-- funds-item__number -->
+                                                <div class="funds-item__number funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__number-funds funds-item-header__title">
+                                                        &#8470; Фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <p class="funds-item__number-text">203</p>
+                                                </div>
+                                                <!-- funds-item__name -->
+                                                <div class="funds-item__name funds-item__text">
+                                                    <!-- top -->
+                                                    <p class="funds-item__name-funds funds-item-header__title">
+                                                        Название фонда
+                                                    </p>
+                                                    <!-- content -->
+                                                    <a href="#"
+                                                        class="funds-item__name-funds-text link-hover-line">МОСКОВСКАЯ
+                                                        ДУХОВНАЯ ДИКАСТЕРИЯ, Г.
+                                                        МОСКВА. (1723-1744). МОСКОВСКАЯ ДУХОВНАЯ
+                                                        КОНСИСТОРИЯ, Г.МОСКВА. (1744-1920)</a>
+                                                </div>
+                                                <!-- funds-item__date -->
+                                                <div class="funds-item__date">
+                                                    <div class=" funds-item__text">
+                                                        <!-- top -->
+                                                        <p class="funds-item__date-funds funds-item-header__title">
+                                                            Годы
+                                                        </p>
+                                                        <!-- content -->
+                                                        <p class="funds-item__date-funds-text">1744 - 1920</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- pagination-block__wrapper -->
+                                <div class="pagination-block__wrapper">
+                                    <!-- pagination-block -->
+                                    <div class="pagination-block desktop">
+                                        <div class="list-funds__arrow-left">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
+                                                    fill="#BDBDBD" />
+                                            </svg>
+                                        </div>
+                                        <div class=" pagination-num">
+                                            <a class="pagination__page-num active" href="#">1</a>
+                                            <a class="pagination__page-num" href="#">2</a>
+                                            <a class="pagination__page-num" href="#">3</a>
+                                            <a class="pagination__page-num" href="#">...</a>
+                                            <a class="pagination__page-num" href="#">50</a>
+                                        </div>
+                                        <div class="list-funds__arrow-right">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
+                                                    fill="#BDBDBD" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="pagination-block mobile">
+                                        <div class="list-funds__arrow-left mobile">
+                                            <img src="img/arrow-pagination.svg" alt="arrow-left-pagination">
+                                        </div>
+                                        <div class=" pagination-num mobile">
+                                            <a class="pagination__page-num active" href="#">1</a>
+                                            <span>/</span>
+                                            <a class="pagination__page-num-count" href="#">3</a>
+                                        </div>
+                                        <div class="list-funds__arrow-right mobile">
+                                            <img src="img/arrow-pagination.svg" alt="arrow-right-pagination">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!-- Content end-->
+        <!-- Popup logout start-->
+        <div id="popup__logout" class="popup__enter-user">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu popup-logout">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <div class="popup__title">Вход</div>
+                    <div class="popup-form__block">
+                        <form class="popup__form">
+                            <input class="popup-phorm__input popup-input-email" type="email" placeholder="E-mail">
+                            <div class="popup-input-password__wrapper">
+                                <input class="popup-phorm__input popup-input-password" type="password"
+                                    placeholder="Пароль">
+                            </div>
+                            <p class="btn-forgot-password">Забыли пароль?</p>
+                            <button class="btn-logout btn-general btn-hover btn-deep-blue">Войти</button>
+                        </form>
+                    </div>
+                    <div class="opportunity-register__btn-block">
+                        <p class="opportunity-register-text">Нет аккаунта?</p>
+                        <button id="btn-register__user"
+                            class="btn-opportunity-register link-hover-line">Зарегистрируйтесь</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup__register-user" class="popup__register-user">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu popup-logout">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <div class="popup__title">Регистрация</div>
+                    <div class="popup-form__block">
+                        <form class="popup__form">
+                            <input class="popup-phorm__input popup-input-name" type="text" placeholder="Имя">
+                            <input class="popup-phorm__input popup-input-email" type="email" placeholder="E-mail">
+                            <div class="popup-input-password__wrapper">
+                                <input class="popup-phorm__input popup-input-password" type="password"
+                                    placeholder="Пароль">
+                            </div>
+                            <p class="btn-forgot-password">Забыли пароль?</p>
+                            <!-- feedback-form-privacy-policy__agreement-block -->
+                            <div class="register-form-privacy-policy__agreement-block">
+                                <input class="check-box-input" id="register-form-privacy-policy__agree" type="checkbox">
+                                <label class="check-box-label" for="register-form-privacy-policy__agree"></label>
+                                <p class="feedback-form-privacy-policy__agreement">Я согласен(-на) с
+                                    <a class="feedback-form-privacy-policy__link link-hover-line" href="#">Политикой
+                                        конфиденциальности</a>
+                                </p>
+                            </div>
+                            <button class="btn-register btn-general btn-hover btn-deep-blue">Зарегистрироваться</button>
+                        </form>
+                    </div>
+                    <div class="opportunity-register__btn-block">
+                        <p class="opportunity-register-text">Есть аккаунт?</p>
+                        <button id="btn-logout-popup" class="btn-opportunity-register link-hover-line">Войдите</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup logout end -->
+        <!-- Footer start-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <!-- Footer top -->
+                    <div class="footer-top__wrapper">
+                        <!-- Logo & Address block -->
+                        <div class="footer-logo-contact__wrapper">
+                            <!-- logo block -->
+                            <div class="logo-block">
+                                <!-- logo -->
+                                <div class="logo-img__block footer-logo-block">
+                                    <img src="img/logo-new-1.svg" alt="logo_archive">
+                                </div>
+                                <!-- header-content-title__block -->
+                                <div class="header-content-title__block">
+                                    <p class="header-content__title">Главархив Москвы</p>
+                                    <p class="header-content__subtitle">
+                                        Государственное бюджетное учреждение города Москвы
+                                        «Центральный государственный архив города Москвы»
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- address-block__wrapper -->
+                            <div class="address-block__wrapper">
+                                <!-- address block -->
+                                <div class="footer-address__block">117393, г. Москва, ул. Профсоюзная, д. 80</div>
+                                <!-- Working days & hours -->
+                                <ul class="working-days-hours__block">
+                                    <li class="working-days__item">
+                                        <span>пн-чт:</span>
+                                        <span>с 08:00 до 17:00</span>
+                                    </li>
+                                    <li class="working-days__item">
+                                        <span>пт:</span>
+                                        <span>с 08:00 до 13:00</span>
+                                    </li>
+                                </ul>
+                                <!-- Btn Contact us -->
+                                <div class="btn-contact-us__wrapper">
+                                    <button class="btn-contact-us btn-hover">Связаться с нами</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Footer menu block -->
+                        <div class="footer-menu__wrapper">
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Об архиве</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">История</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Документы</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Отделы хранения</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Уникальные документы</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Вакансии</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Торги</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Вопрос-Ответ</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Путеводители</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Фонды</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Описи</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Путеводители</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Деятельность</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Новые поступления</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Выставка одного документа</a>
+                                </li>
+                            </ul>
+
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Услуги и расценки</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Услуги и расценки</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Порядок работы</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Выставочный зал</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Читальный зал</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Запросы</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Виды запросов</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Как подать запрос</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Записаться на приём</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Формы и бланки заявлений</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer bottom -->
+                    <div class="footer-bottom__wrapper">
+                        <!-- Footer copyright -->
+                        <div class="footer-copyright">
+                            <p class="footer-copyright__text">
+                                © 2013-2021 Государственное бюджетное учреждение города Москвы «Центральный
+                                государственный архив города Москвы»
+                            </p>
+                        </div>
+                        <!-- Footer contact-info block -->
+                        <div class="footer-contact-info__wrapper">
+                            <!-- Author-link text -->
+                            <div class="footer-author-link">
+                                <p class="author-link__text">
+                                    При полном или частичном использовании материалов с сайта ГБУ «ЦГА Москвы» ссылка на
+                                    источник обязательна
+                                </p>
+                            </div>
+                            <!-- Email block -->
+                            <div class="footer-contact__email">
+                                <a class="footer__email link-hover-line"
+                                    href="mailto:cgam@archive.mos.ru">cgam@archive.mos.ru</a>
+                                <span>Эл. почта</span>
+                            </div>
+                            <!-- Phone block -->
+                            <div class="footer-contact__phone">
+                                <a class="footer__tel link-hover" href="tel:8 (495) 777-77-77">8(495)777-77-77</a>
+                                <span>Единая справочная служба г. Москвы</span>
+                            </div>
+                            <!-- Btn Found a bug -->
+                            <div class="btn-found-bug">Нашли ошибку?</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

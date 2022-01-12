@@ -1,0 +1,95 @@
+.foundations-guide-info__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 40px 32px;
+
+    background: var(--white-color);
+    border-radius: 4px;
+
+    margin-bottom: 50px;
+}
+/* attention-info__description */
+.attention-info__description {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 355px; */
+    width: 100%;
+    margin-bottom: 30px;
+}
+.attention-info__text {
+    margin-top: 20px;
+}
+/* list-donated-funds__block */
+.list-donated-funds__block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+.list-donated-funds__itle {
+    font-weight: 600;
+
+    margin-bottom: 15px;
+}
+.list-donated-funds__list {
+    position: relative;
+    padding-left: 17px;
+
+    margin-bottom: 6px;
+}
+.list-donated-funds__list::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: 0;
+    border-radius: 50%;
+    background: var(--main-black-color);
+}
+/* info-list-donated-funds__block */
+.info-list-donated-funds__block {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    width: 100%;
+
+    border-radius: 4px;
+    background: var(--bg-color);
+}
+.info-list-donated-funds__title {
+    font-weight: 600;
+    font-size: 16px;
+}
+.info-list-donated-funds__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+.info-donated-funds:first-child {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid var(--grey-blue-2-color);
+
+    margin-bottom: 30px;
+}
+.info-donated-funds__title,
+.info-donated-funds__address,
+.info-donated-funds__tel {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.info-donated-funds__title {
+    font-weight: 600;
+}
+.info-donated-funds__tel:last-child {
+    margin-bottom: 0;
+}
+.foundations-block__wrapper > .foundations-register__wrapper {
+    margin: 50px 0px 0px 0px;
+}

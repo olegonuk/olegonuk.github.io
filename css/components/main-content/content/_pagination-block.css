@@ -1,0 +1,69 @@
+.pagination-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 55px;
+}
+.pagination-block.desktop {
+    display: none;
+}
+
+.list-funds__arrow-left {
+    transform: rotate(180deg);
+}
+.list-funds__arrow-left,
+.list-funds__arrow-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+.list-funds__arrow-left.mobile,
+.list-funds__arrow-right.mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background: var(--dark-blue-2-color);
+}
+.pagination-num {
+    margin: 0px 34px;
+}
+.pagination__page-num {
+    font-weight: 500;
+    color: var(--grey-blue-2-color);
+    padding: 0px 0px 2px;
+    margin: 0px 8px;
+}
+.pagination-num.mobile > .pagination__page-num {
+    font-size: 16px;
+}
+.pagination__page-num-count {
+    margin: 0px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--grey-blue-5-color);
+}
+.pagination-num.mobile > span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.pagination__page-num.active {
+    color: var(--main-black-color);
+    border-bottom: 1px solid var(--main-black-color);
+}
+.pagination-num.mobile > .pagination__page-num.active {
+    border: none;
+}
+.pagination__page-num.active .pagination__page-num:first-child {
+    margin-left: 0;
+}
+.pagination__page-num:last-child {
+    margin-right: 0;
+}

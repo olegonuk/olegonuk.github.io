@@ -1,0 +1,110 @@
+.how-search-metric-books-content__block {
+    width: 100%;
+}
+.how-search-metric-books-content__wrapper {
+    padding: 50px 30px;
+    width: 100%;
+    background: var(--white-color);
+}
+.how-search-metric-books-content__wrapper.map-moscow {
+    padding: 30px 20px;
+}
+.how-search-metric-books__subtitle {
+    font-size: 16px;
+    color: var(--main-black-color);
+}
+/* search-instruction__lists */
+.search-instruction__lists {
+    margin: 50px 0px;
+}
+/* search-instruction__list*/
+.search-instruction__list {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 50px;
+}
+.search-instruction__list:last-child {
+    margin-bottom: 0;
+}
+.search-instruction-title__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 0px 0px;
+}
+.search-instruction-num__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: var(--dark-blue-2-color);
+}
+.search-instruction__num {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--white-color);
+}
+.search-instruction__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--main-black-color);
+
+    margin-bottom: 20px;
+}
+.search-instruction__subtitle {
+    font-size: 16px;
+    color: var(--main-black-color);
+}
+/* find-right-fund__lists" */
+.find-right-fund__lists {
+    margin: 16px 0px 30px;
+}
+.right-fund__list {
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+
+    margin-bottom: 16px;
+}
+.right-fund__list:last-child {
+    margin-bottom: 0;
+}
+.right-fund__list::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 6px;
+    left: 0;
+
+    border-radius: 50%;
+    background: var(--dark-blue-3-color);
+}
+/* attention-info__block */
+.attention-info__block {
+    display: flex;
+    padding: 26px 53px 24px 26px;
+
+    background: var(--bg-color);
+
+    margin: 50px 0px 0px;
+}
+.attention-info__picture {
+    margin-right: 14px;
+}
+.attention-info__subtitle {
+    font-size: 16px;
+}
+.btn-go-search {
+    font-size: 16px;
+    max-width: 345px;
+    border-radius: 63px;
+
+    margin-top: 50px;
+}

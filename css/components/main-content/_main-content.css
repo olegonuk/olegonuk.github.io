@@ -1,0 +1,9 @@
+@import "./sidebar/_sidebar.css";
+@import "./content/_content.css";
+
+.main {
+    background: var(--bg-color);
+}
+.main-content__wrapper {
+    padding-bottom: 90px;
+}

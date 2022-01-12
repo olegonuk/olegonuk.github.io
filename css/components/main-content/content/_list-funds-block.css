@@ -1,0 +1,118 @@
+.list-funds__wrapper {
+    padding: 50px 0px 30px;
+}
+.title-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+.wripper-link-title {
+    display: flex;
+    align-items: center;
+}
+/* .funds-title {
+    margin-bottom: 25px;
+} */
+.total-number-inventories {
+    display: none;
+    font-size: 16px;
+}
+.total-number-inventories__count {
+    font-weight: 600;
+
+    margin-left: 12px;
+}
+.arrow-link__back {
+    display: none;
+    margin-right: 28px;
+}
+.list-funds__header {
+    display: none;
+    align-items: flex-start;
+    padding: 25px 0px;
+}
+.funds-item-header__title {
+    color: var(--grey-blue-3-color);
+}
+/* funds__item */
+.funds__item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0px;
+
+    border-bottom: 1px solid var(--grey-blue-3-color);
+}
+.funds__item:first-child {
+    border-top: 1px solid var(--grey-blue-3-color);
+}
+.funds-item__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.funds-item__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--main-black-color);
+
+    margin-bottom: 30px;
+}
+.funds-item__number-funds,
+.funds-item__number {
+    max-width: 135px;
+    width: 100%;
+
+    margin-right: 45px;
+}
+.funds-item__name-funds,
+.funds-item__name {
+    width: 100%;
+    max-width: 935px;
+}
+.funds--page > .funds-item__name-funds,
+.funds--page > .funds-item__name {
+    padding-right: 77px;
+}
+.funds-item__name {
+    order: 3;
+}
+.funds-item__date-funds,
+.funds-item__date {
+    display: flex;
+    justify-content: space-between;
+    max-width: 328px;
+}
+
+.funds-item__number-funds-text {
+    max-width: 135px;
+}
+.funds-item__name-funds-text {
+    max-width: 755px;
+    color: var(--main-black-color);
+}
+.funds-item__date-funds-text {
+    max-width: 288px;
+}
+.funds-item__number-funds-text,
+.funds-item__name-funds-text,
+.funds-item__date-funds-text {
+    margin-top: 5px;
+}
+
+.funds__item-arrow {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--white-color);
+}
+.arrow-link__img {
+    width: 100%;
+    height: 100%;
+    background: url("../../../../img/arrow-link.svg") center no-repeat;
+}

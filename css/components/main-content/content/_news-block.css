@@ -1,0 +1,121 @@
+.news-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.virtual-musem-news__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+/*Virtual musem*/
+.virtual-museum__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 20px;
+    width: 100%;
+
+    background: var(--white-color);
+    /* margin-right: 28px; */
+}
+.virtual-museum__menu {
+    max-width: 245px;
+    order: 1;
+
+    margin-top: 30px;
+    /* margin-right: 24px; */
+}
+
+.virtual-museum__picture {
+    width: 100%;
+}
+.virtual-museum__picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.virtual-museum__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    color: var(--main-black-color);
+
+    margin: 0px 0px 40px;
+}
+.virtual-museum__item {
+    margin-bottom: 15px;
+}
+.virtual-museum__item:last-child {
+    margin-bottom: 0;
+}
+.virtual-museum__link {
+    display: inline-block;
+    padding: 6px 13px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--main-black-color);
+
+    background: var(--bg-color);
+    border-radius: 21px;
+}
+/*News linetime*/
+.news-timeline__block {
+    display: flex;
+    flex-direction: column;
+
+    /* max-width: 345px; */
+
+    margin-top: 30px;
+}
+.short-news__item {
+    padding: 16px 0px;
+
+    border-top: 1px solid var(--grey-blue-1-color);
+}
+.short-news__item.showroom-block {
+    border: none;
+}
+.news-mark__wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+.news-mark {
+    width: 73px;
+    height: 20px;
+
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: var(--main-black-color);
+
+    padding: 3px 16px;
+    background: var(--grey-blue-4-color);
+    border-radius: 24px;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+.news-mark__wrapper > .news-mark {
+    margin-bottom: 0px;
+}
+.news-mark-date {
+    font-size: 13px;
+    line-height: 16px;
+    counter-reset: var(--grey-blue-6-color);
+
+    margin-left: 12px;
+}
+.short-news__link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--main-black-color);
+}

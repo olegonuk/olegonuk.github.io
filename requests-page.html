@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГБУ "Центральный государственный архив города Москвы"</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header start -->
+        <header class="header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__wrapper">
+                        <!-- visually-impaired -->
+                        <div class="header-top-visually-impaired__block">
+                            <div class="header-top-visually-impaired__img">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hover-icon"
+                                        d="M10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0ZM10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2ZM10 5C11.0526 5.0004 12.0782 5.33297 12.9307 5.95034C13.7832 6.56771 14.4192 7.43837 14.748 8.4383C15.0767 9.43822 15.0815 10.5164 14.7617 11.5192C14.4419 12.522 13.8137 13.3984 12.9668 14.0233C12.1198 14.6483 11.0972 14.99 10.0446 14.9998C8.99211 15.0096 7.96332 14.687 7.10486 14.0779C6.24639 13.4688 5.60204 12.6043 5.26361 11.6076C4.92517 10.611 4.90991 9.53287 5.22 8.527C5.45392 9.04971 5.86027 9.47622 6.37106 9.73516C6.88184 9.9941 7.46606 10.0698 8.02595 9.94946C8.58584 9.82916 9.08743 9.52022 9.44677 9.07433C9.80612 8.62844 10.0014 8.07267 10 7.5C10.0001 7.01847 9.8612 6.54714 9.59989 6.14268C9.33858 5.73821 8.96603 5.41781 8.527 5.22C8.993 5.077 9.487 5 10 5Z"
+                                        fill="#0a4469" />
+                                </svg>
+                                <!-- <img src="img/visually-impaired-icon.svg" alt="visually-impaired-icon"> -->
+                            </div>
+                            <a class="visually-impaired__link hover-color" href="#">Версия для слабовидящих</a>
+                        </div>
+                        <!-- mobile header-search-->
+                        <div class="mobile-header-search__block">
+                            <form class="mobile-header-search__form" action="/">
+                                <div class="search-icon__block">
+                                    <img src="img/search-icon.svg" alt="search-icon">
+                                </div>
+                                <input class="mobile-header-search__input" type="search" placeholder="Поиск">
+                                <div class="tab-selected-search">Везде</div>
+                            </form>
+                        </div>
+                        <!-- address -->
+                        <div class="header-top-address__block">
+                            <p class="header-top-address__title">117393, Москва, ул.Профсоюзная, д.80</p>
+                        </div>
+                        <!-- user-logout -->
+                        <div id="btn-logout" class="header-top-user-logout__block">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="hover-icon"
+                                    d="M4 22C4 19.8783 4.84285 17.8434 6.34315 16.3431C7.84344 14.8429 9.87827 14 12 14C14.1217 14 16.1566 14.8429 17.6569 16.3431C19.1571 17.8434 20 19.8783 20 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13Z"
+                                    fill="#0a4469" />
+                            </svg>
+                            <p class="header-top-user-logout__title hover-color">Вход/Регистрация</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-content  -->
+            <div class="header-content">
+                <div class="container">
+                    <div class="header-content__wrapper">
+                        <!-- logo block -->
+                        <div class="logo-block">
+                            <a href="/index.html" class="logo-img__block">
+                                <img src="img/logo-new-1.svg" alt="logo_archive">
+                            </a>
+                            <div class="header-content-title__block">
+                                <p class="header-content__title">Главархив Москвы</p>
+                                <p class="header-content__subtitle">
+                                    Государственное бюджетное учреждение города Москвы
+                                    «Центральный государственный архив города Москвы»
+                                </p>
+                            </div>
+                        </div>
+                        <div id="burger__nav" class="navbar__burger">
+                            <span class="burger__menu"></span>
+                        </div>
+                        <!-- header menu -->
+                        <div class="header-content__menu">
+                            <ul class="header-menu">
+                                <li class="header-menu__list">
+                                    <a href="#" class="header-menu__link link-hover">«Моя семья»</a>
+                                    <ul class="header-submenu">
+                                        <li class="header-submenu__list-title">
+                                            <a href="#" class="header-menu__link link-hover">«Моя
+                                                семья»</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/how-search-metric-books-page.html" class="header-submenu__link link-hover">В помощь
+                                                иследователю</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/metric-books-page.html" class="header-submenu__link link-hover">Метрические книги</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Актовые книги других
+                                                конфессий</a>
+                                            <div class="arrow-menu-content"></div>
+                                            <ul class="sub-submenu">
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                                <li class="sub-submenu__list">
+                                                    <a class="sub-submenu__link" href="#">Ислам</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Ревизские сказки</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="#" class="header-submenu__link link-hover">Исповедные ведомости</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/how-search-metric-books-moscow-map-page.html" class="header-submenu__link link-hover">Карта Москвы 1915 г.</a>
+                                        </li>
+                                        <li class="header-submenu__list">
+                                            <a href="/metric-books-index-parishes-page.html" class="header-submenu__link link-hover">Указатели приходов</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="foundations-funds-page.html" class="header-menu__link link-hover">Фонды</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/about-archive-history-page.html" class="header-menu__link link-hover">Об архиве</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/activity-exhibition-one-doc-page.html" class="header-menu__link link-hover">Деятельность</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/services-prices-page.html" class="header-menu__link link-hover">Услуги и расценки</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/readingroom-page.html" class="header-menu__link link-hover">Читальный зал</a>
+                                </li>
+                                <li class="header-menu__list">
+                                    <a href="/showroom-page.html" class="header-menu__link link-hover">Выставочный зал</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-search -->
+            <div class="header-search">
+                <div class="container">
+                    <form class="header-search__form hover-form" action="/">
+                        <input class="search-form__field props-placeholder" type="search" placeholder="Поиск по сайту">
+                        <div class="search-form-button__block">
+                            <div class="filter-button__wrapper">
+                                <div
+                                    class="btn-all-search filter-search-fild-btn btn-tab-hover search-fild-btn__active">
+                                    Везде</div>
+                                <div class="btn-fonds-search filter-search-fild-btn btn-tab-hover">Фонды</div>
+                                <div class="btn-register-search filter-search-fild-btn btn-tab-hover">Описи</div>
+                            </div>
+                            <button class="search-form__button btn-serch-field btn-hover">Поиск</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- mobile-menu -->
+            <div class="mobile-menu__wrapper">
+                <div class="mobile-container__wrapper">
+                    <!-- logo block -->
+                    <div class="logo-block">
+                        <!-- mobile-logo__wrapper -->
+                        <div class="mobile-logo__wrapper">
+                            <!-- logo-img__block -->
+                            <div class="logo-img__block">
+                                <img src="img/logo-new-1.svg" alt="logo_archive">
+                            </div>
+                            <!-- header-content-title__block -->
+                            <div class="header-content-title__block">
+                                <p class="header-content__title">Главархив Москвы</p>
+                                <p class="header-content__subtitle">
+                                    Государственное бюджетное учреждение города Москвы
+                                    «Центральный государственный архив города Москвы»
+                                </p>
+                            </div>
+                        </div>
+                        <!-- btn-mobile-close -->
+                        <div id="btn-mobile-close" class="btn-close__mobile-menu">
+                            <div class="btn-close-block"></div>
+                        </div>
+                    </div>
+                    <!-- header-menu -->
+                    <ul class="header-menu">
+                        <li class="header-menu__list">
+                            <a href="/metric-books-page.html" class="header-menu__link">«Моя семья»</a>
+                            <div class="header-menu-arrow arrow-menu-content"></div>
+                            <ul class="header-submenu">
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">В помощь
+                                        иследователю</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Метрические книги</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Актовые книги других
+                                        конфессий</a>
+                                    <div class="header-submenu-arrow arrow-menu-content"></div>
+                                    <ul class="sub-submenu">
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                        <li class="sub-submenu__list">
+                                            <a class="sub-submenu__link" href="#">Ислам</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Ревизские сказки</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Исповедные ведомости</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Карта Москвы 1915 г.</a>
+                                </li>
+                                <li class="header-submenu__list">
+                                    <a href="#" class="header-submenu__link link-hover">Указатели приходов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/foundations-funds-page.html" class="header-menu__link">Фонды</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/about-archive-history-page.html" class="header-menu__link">Об архиве</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="/activity-exhibition-one-doc-page.html" class="header-menu__link">Деятельность</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Услуги и расценки</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Читальный зал</a>
+                        </li>
+                        <li class="header-menu__list">
+                            <a href="#" class="header-menu__link">Выставочный зал</a>
+                        </li>
+                    </ul>
+                    <!-- header-top-address__block -->
+                    <div class="header-top-address__block">
+                        <p class="header-top-address__title">117393, Москва, ул.Профсоюзная, д.80</p>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile-search-popup -->
+            <div class="mobile-header-search-popup__wrapper">
+                <div class="mobile-search-popup__block">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu btn-close-popup">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <!-- search-form-popup__block -->
+                    <div class="search-form-popup__block">
+                        <form class="search-form__popup" action="/">
+                            <div class="search-icon__block">
+                                <img src="img/search-icon.svg" alt="search-icon">
+                            </div>
+                            <input class="search-form-popup__input" type="search" placeholder="Поисковый запрос">
+                        </form>
+                    </div>
+                    <!-- where-find-sections__block -->
+                    <div class="where-find-sections__block">
+                        <p class="where-find-sections__title">Где искать?</p>
+                        <div class="find-sections-tab__wrapper">
+                            <div class="find-sections__tab find-sections-all">Везде</div>
+                            <div class="find-sections__tab find-sections-fonds">Фонды</div>
+                            <div class="find-sections__tab find-sections-register">Описи</div>
+                        </div>
+
+                    </div>
+                    <div class="btn-apply-selected-value btn-general btn-deep-blue">Искать</div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+        <!-- Content start-->
+        <main class="main">
+            <div class="container">
+                <div class="main-content__wrapper">
+                    <!-- Breadcrumbs-block start -->
+                    <div class="breadcrumbs-block">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <a href="#" class="breadcrumbs__link breadcrumbs__link-active">Запросы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Breadcrumbs-block end -->
+                    <!--title-page-block  -->
+                    <div class="title-page__block about-archive-history-title">
+                        <p class="page__title">Запросы</p>
+                    </div>
+                    <section class="showroom__block">
+                        <div class="showroom__wrapper">
+                            <!-- showroom-sidebar -->
+                            <div class="request-sidebar">
+                                <!-- sidebar-request__tabs-wrapper -->
+                                <div class="sidebar-request__tabs-wrapper">
+                                    <!-- selected-request-tab-active-value" -->
+                                    <div class="selected-request-tab-active-value"></div>
+                                    <!-- select-request__tabs -->
+                                    <div class="select-request__tabs">
+                                        <div class="select-request__tab active link-hover">
+                                            <p class="select-request__name">Виды запросов</p>
+                                        </div>
+                                        <div class="select-request__tab active link-hover">
+                                            <p class="select-request__name">Как подать запрос</p>
+                                        </div>
+                                        <div class="select-request__tab active link-hover">
+                                            <p class="select-request__name">Записаться на приём</p>
+                                        </div>
+                                        <div class="select-request__tab active link-hover">
+                                            <p class="select-request__name">Формы и бланки</p>
+                                        </div>
+                                        <div class="select-request__tab active link-hover">
+                                            <p class="select-request__name">Форма обратной связи</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- sidebar-requests-links__block -->
+                                <div class="sidebar-requests-links__block">
+                                    <p class="sidebar-requests-link__title">Адреса подачи заявлений</p>
+                                    <div class="sidebar-requests-link__block">
+                                        <div class="sidebar-requests__link hover-tile">Перечень МФЦ</div>
+                                        <div class="sidebar-requests__link hover-tile">Городские электронные услуги
+                                            и
+                                            сервисы на официальном сайте (портале) Мэра Москвы</div>
+                                    </div>
+                                </div>
+                                <!-- sidebar-reference-service__block -->
+                                <div class="sidebar-reference-service__block">
+                                    <p class="sidebar-reference-service__title">
+                                        Единая справочная служба г. Москвы
+                                    </p>
+                                    <a class="sidebar-reference-service__tel hover-color"
+                                        href="tel:8 (495) 777-77-77">8(495)777-77-77</a>
+                                </div>
+
+                            </div>
+                            <!-- requests-content -->
+                            <div class="requests-content">
+                                <!-- requests-tab-content__wrapper -->
+                                <div class="requests-tab-content__wrapper">
+                                    <!-- requests-tab__content -->
+                                    <div class="requests-tab__content">
+                                        <p class="requests-content__title">Виды запросов</p>
+                                        <!-- requests-content__announcement -->
+                                        <div class="requests-content__announcement">
+                                            <div class="requests__announcement">
+                                                <div class="attention__message">
+                                                    Уважаемые заявители!
+                                                </div>
+                                                <div class="requests__announcement-wrapper">
+                                                    <p class="requests-announcement__subtitle">
+                                                        Архивные справки о заработной плате, трудовом стаже, о
+                                                        награждении
+                                                        медалями "За оборону Москвы", "В память 800-летия
+                                                        Москвы", "В память 850-летия Москвы", "Ветеран труда", "За
+                                                        доблестный
+                                                        труд к 100-летию рождения В.И. Ленина", "За
+                                                        доблестный труд в Великой Отечественной войне 1941-1945 гг.",
+                                                        ведомственными наградами, почетными грамотами, об учебе, о
+                                                        пособии по безработице, о создании (переименовании) организации
+                                                        для
+                                                        оформления трудовой пенсии, о получении копии акта
+                                                        медицинского освидетельствования в БМСЭ, о мобилизации в
+                                                        народное
+                                                        ополчение, на трудовой фронт в годы Великой
+                                                        Отечественной войны, о получении копии приговора, вынесенного
+                                                        Мосгорсудом, об установлении опеки (кроме решений органов
+                                                        социальной защиты населения), пребывании детей в учреждениях для
+                                                        детей–сирот и детей, оставшихся без попечения родителей
+                                                        (детские дома, школы–интернаты) Вы можете получить через раздел
+                                                        "Городские электронные услуги и сервисы на официальном
+                                                        сайте (портале) Мэра Москвы"
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="types-requests__wrapper">
+                                            <!-- types-requests__block -->
+                                            <div class="types-requests__block requests-free__block">
+                                                <p class="types-requests__title types-requests__free">Бесплатные</p>
+                                                <ul class="types-requests-free__lists">
+                                                    <li class="types-requests-free__list types-requests-list">
+                                                        Запросы органов государственной власти и местного
+                                                        самоуправления,
+                                                        относящиеся к их деятельности.
+                                                    </li>
+                                                    <li class="types-requests-free__list types-requests-list">
+                                                        Социально-правовые запросы
+                                                    </li>
+                                                </ul>
+                                                <div class="types-requests__block-text">
+                                                    <p class="requests-free__subtitle">
+                                                        Запросы, связанные с социальной защитой граждан,
+                                                        предусматривающие
+                                                        их пенсионное обеспечение (стаж, заработная плата,
+                                                        переименование организаций, и предприятий, награждение и
+                                                        др.), а
+                                                        также получение льгот и компенсаций в соответствии с
+                                                        законодательством РФ (опека, мобилизация на трудовой фронт,
+                                                        народное
+                                                        ополчение, репрессии и др.), и международными
+                                                        обязательствами РФ. Услуга предоставляется через раздел
+                                                        Городские
+                                                        электронные услуги и сервисы на официальном сайте
+                                                        (портале) Мэра Москвы и через Центры государственных услуг
+                                                        г. Москвы
+                                                        «Мои документы».
+                                                    </p>
+                                                    <p class="requests-free__subtitle"> С основными
+                                                        сведениями по предоставлению государственной услуги
+                                                        "Исполнение социально-правовых запросов граждан,
+                                                        связанных с подготовкой и предоставлением архивной справки,
+                                                        архивной
+                                                        выписки, архивной копии и информационного письма по
+                                                        архивным документам, хранящимся в подведомственных Главному
+                                                        архивному управлению города Москвы архивных учреждениях"
+                                                        можно ознакомиться здесь.
+                                                    </p>
+                                                    <p class="requests-free__subtitle">Также на
+                                                        бесплатной основе исполняются тематические запросы граждан о
+                                                        награждении их родственников медалями «За оборону
+                                                        Москвы», «За доблестный труд в Великой Отечественной войне»,
+                                                        о
+                                                        мобилизации в народное ополчение и на трудовой фронт в
+                                                        годы Великой Отечественной войны, а также запросы
+                                                        общественных
+                                                        организаций и граждан, осуществляющих поисковую и
+                                                        мемориальную работу в отношении лиц, принимавших участие в
+                                                        Великой
+                                                        Отечественной войне.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- types-requests__block -->
+                                            <div class="types-requests__block requests-paid__block">
+                                                <p class="types-requests__title types-requests__paid">Платные</p>
+                                                <ul class="types-requests-paid__lists">
+                                                    <li class="types-requests-paid__list types-requests-list">
+                                                        Тематические запросы
+                                                    </li>
+                                                </ul>
+                                                <div class="types-requests__block-text">
+                                                    <p class="requests-paid__subtitle">
+                                                        Тематические запросы о предоставлении информации по определенной
+                                                        проблеме, теме, событию, факту (жилищные, об
+                                                        имущественном и финансовом праве, история объекта, организации,
+                                                        об отводе земли и др.), сведений, необходимых для
+                                                        изучения жизни и деятельности конкретного лица за период после
+                                                        1917 г. в г. Москве, а также по тематическим категориям:
+                                                        «Генеалогия», «Рождение, брак, смерть» по документам метрических
+                                                        книг Москвы и Московской губернии до 1917 г.
+                                                    </p>
+                                                </div>
+                                                <div class="types-requests-accent-info__block-text">
+                                                    <p class="types-requests-accent-info__title">
+                                                        Важная информация по исполнению тематических запросов по
+                                                        документам органов власти за период после 1917 г.!
+                                                    </p>
+                                                    <p class="types-requests-accent-info__subtitle">
+                                                        При возможности указывайте точные исходные данные (номер и дату)
+                                                        запрашиваемых вами документов райсоветов, префектур
+                                                        административных округов, управ районов, иных муниципальных
+                                                        образований, а также Департамента государственного и
+                                                        муниципального имущества города Москвы и др. При отсутствии
+                                                        таковых исполнение запроса будет проводиться в рамках
+                                                        хронологического периода, не превышающего трех месяцев одного
+                                                        года. Последующие месяцы запрашиваемого вами
+                                                        хронологического периода будут автоматически разбиваться по три,
+                                                        следующих друг за другом месяца и регистрироваться как
+                                                        самостоятельные запросы.
+                                                        <span class="accent-words ">Будьте внимательны и уточняйте
+                                                            интересующий Вас период заранее!</span>
+                                                    </p>
+                                                    <p class="types-requests-accent-info__subtitle">
+                                                        Более подробно с тематиками платных запросов можно ознакомиться
+                                                        <a class="types-requests-accent-info__link link-hover-line"
+                                                            href="#">здесь</a>.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="types-requests__footnote">
+                                                <p class="types-requests__footnote-text">
+                                                    <span class="accent-attention-words">**</span>
+                                                    Согласно Уставу ГБУ «ЦГА Москвы», утвержденному Приказом Главархива
+                                                    Москвы от 31.05.2019 г. №
+                                                    59, учреждение вправе осуществлять виды деятельности, в т. ч.
+                                                    приносящие доход, не
+                                                    относящиеся к основным видам деятельности, а именно:
+                                                    исполнение тематических запросов физических и юридических лиц (кроме
+                                                    органов государственной власти и местного
+                                                    самоуправления (п.2.6.7 Устава)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- requests-tab__content -->
+                                    <div class="requests-tab__content">
+                                        <p class="requests-content__title">Как подать запрос</p>
+                                        <!-- how-submit-request__block -->
+                                        <div class="how-submit-request__block">
+                                            <p class="how-submit-request__desc-text">
+                                                Предоставление государственной услуги города Москвы «Исполнение
+                                                социально-правовых запросов граждан, связанных с
+                                                подготовкой и предоставлением архивной справки, архивной выписки,
+                                                архивной копии и информационного письма по архивным
+                                                документам, хранящимся в подведомственных Главному архивному управлению
+                                                города Москвы архивных учреждениях»
+                                                осуществляется архивными учреждениями, подведомственными Главархиву
+                                                Москвы в соответствии с Административным
+                                                регламентом, утвержденным постановлением Правительства Москвы от
+                                                01.12.2015 № 789-ПП.
+
+                                                С основными сведениями по предоставлению данной государственной услуги
+                                                можно ознакомиться здесь.
+                                            </p>
+                                            <!-- type-request-block socio-legal-inquiries-->
+                                            <div class="type-request-block socio-legal-inquiries">
+                                                <p class="type-request-block__title">Запросы социально-правового
+                                                    характера</p>
+                                                <!--acceptance-requests__block  -->
+                                                <div class="public-services__block acceptance-requests__block">
+                                                    <p class="public-services-block__title">
+                                                        Прием запросов при предоставлении государственной услуги:
+                                                    </p>
+                                                    <ul class="public-services-block__lists">
+                                                        <li class="public-services-block__list">
+                                                            при личном обращении заявителя - физического лица
+                                                            осуществляется в Центрах государственных услуг г. Москвы
+                                                            «Мои
+                                                            документы» по экстерриториальному принципу (вне зависимости
+                                                            от места регистрации заявителя); - при подаче запроса в
+                                                            электронной форме - с использованием раздела «Городские
+                                                            электронные услуги и сервисы на официальном сайте (портале)
+                                                            Мэра
+                                                            Москвы».
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- list-docs-info__block -->
+                                                <div class="public-services__block list-docs-info__block">
+                                                    <p class="public-services-block__title">
+                                                        Перечень документов и информации, необходимых для предоставления
+                                                        заявителями:
+                                                    </p>
+                                                    <ul class="public-services-block__lists">
+                                                        <li class="public-services-block__list">
+                                                            <span class="accent-words">Запрос (заявление) на
+                                                                предоставление государственной услуги</span>
+                                                            (далее — запрос), содержащий необходимые для поиска
+                                                            архивного документа сведения (см. ниже).
+                                                        </li>
+                                                        <li class="public-services-block__list">
+                                                            <span class="accent-words">Паспорт гражданина
+                                                                Российской Федерации</span> или иной документ,
+                                                            удостоверяющий личность в соответствии с Едиными
+                                                            требованиями.
+                                                        </li>
+                                                        <li class="public-services-block__list">
+                                                            <span class="accent-words">Свидетельство о государственной
+                                                                регистрации акта
+                                                                гражданского состояния</span> (о рождении, браке,
+                                                            смерти), выданное
+                                                            за
+                                                            пределами города Москвы (нотариально заверенная копия), —
+                                                            при подаче запросов о подтверждении фактов трудового стажа и
+                                                            заработной платы умершего лица для оформления пенсии при
+                                                            потере кормильца. В случае подачи запроса в электронной
+                                                            форме с
+                                                            использованием Портала Мэра заявитель прикрепляет к запросу
+                                                            электронный образ свидетельства о государственной
+                                                            регистрации акта гражданского состояния (скан-копию).
+                                                        </li>
+                                                        <li class="public-services-block__list">
+                                                            В случае обращения представителя заявителя — <span
+                                                                class="accent-words">документ,
+                                                                подтверждающий полномочия (нотариально заверенная
+                                                                доверенность).</span>
+                                                            В случае подачи запроса в электронной форме с использованием
+                                                            Портала Мэра заявитель прикрепляет к запросу электронный
+                                                            образ указанной доверенности (скан-копию).
+                                                        </li>
+                                                        <li class="public-services-block__list">
+                                                            <span class="accent-words">Документ о трудовой
+                                                                деятельности</span> (трудовая книжка или
+                                                            выписка из трудовой книжки, за исключением случаев утраты
+                                                            трудовой
+                                                            книжки) — при подаче запроса о подтверждении фактов
+                                                            трудового стажа, заработной платы, награждения (копия, не
+                                                            требующая
+                                                            удостоверения). В случае подачи запроса в электронной форме
+                                                            с использованием Портала Мэра заявитель прикрепляет к
+                                                            запросу электронный образ документа о трудовой деятельности
+                                                            (скан-копию).
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- receiving-public-services__block -->
+                                                <div class="public-services__block receiving-public-services__block">
+                                                    <p class="public-services-block__title">
+                                                        Возможность получения государственной услуги в электронной
+                                                        форме:
+                                                    </p>
+                                                    <p class="public-services-block__subtitle">
+                                                        Государственная услуга в электронной форме с использованием
+                                                        Портала Мэра («Городские электронные услуги и сервисы на
+                                                        официальном сайте (портале) Мэра Москвы») предоставляется только
+                                                        зарегистрированным на Портале Мэра пользователям после
+                                                        получения индивидуального кода доступа к подсистеме Портала Мэра
+                                                        «личный кабинет».
+                                                    </p>
+                                                    <p class="public-services-block__subtitle">
+                                                        Физические лица для получения индивидуального кода доступа
+                                                        вводят в информационную систему Портала Мэра следующую
+                                                        информацию:
+                                                    </p>
+                                                    <ul class="public-services-block__lists">
+                                                        <li class="public-services-block__list">
+                                                            фамилия, имя, отчество (при наличии) заявителя, страховой
+                                                            номер
+                                                            индивидуального лицевого счета застрахованного лица в
+                                                            системе персонифицированного учета Пенсионного фонда
+                                                            Российской
+                                                            Федерации (СНИЛС), адрес электронной почты и номер
+                                                            контактного телефона.
+                                                        </li>
+                                                    </ul>
+                                                    <p class="public-services-block__subtitle">
+                                                        Получение государственной услуги в электронной форме с
+                                                        использованием Портала Мэра («Городские электронные услуги и
+                                                        сервисы на официальном сайте (портале) Мэра Москвы»)
+                                                        осуществляется по вопросам, касающимся заработной платы;
+                                                        трудового
+                                                        стажа; награждения; учебы; пособия по безработице; создания
+                                                        (переименования) организации – для оформления трудовой
+                                                        пенсии; получения копии акта медицинского освидетельствования в
+                                                        БМСЭ; мобилизации в народное ополчение, на трудовой
+                                                        фронт в годы Великой Отечественной войны; получения копии
+                                                        приговора, вынесенного Мосгорсудом; установления опеки (кроме
+                                                        решений органов социальной защиты населения); пребывания детей в
+                                                        учреждениях для детей - сирот и детей, оставшихся без
+                                                        попечения родителей (детские дома, школы – интернаты).
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- type-request-block thematic-requests-->
+                                            <div class="type-request-block thematic-requests">
+                                                <p class="type-request-block__title">Тематические запросы</p>
+                                                <p class="public-services-block__subtitle">
+                                                    В соответствии с Уставом ГБУ «ЦГА Москвы» исполнение тематических
+                                                    запросов граждан и юридических лиц осуществляется на
+                                                    платной основе. С расценками Вы можете ознакомиться здесь.
+                                                </p>
+                                                <p class="public-services-block__subtitle">
+                                                    Информируем Вас, что заявитель оплачивает:
+                                                </p>
+                                                <ul class="public-services-block__lists">
+                                                    <li>— ответ в случае положительного результата поиска;</li>
+                                                    <li>— почтовые расходы (при наличии).</li>
+                                                </ul>
+                                                <p class="public-services-block__subtitle">
+                                                    В соответствии с пунктом 3 Приказа № 160 от 13.11.2015 «Об
+                                                    утверждении расценок на архивные услуги (работы), оказываемые
+                                                    (выполняемые) ГБУ «ЦГА Москвы» на платной основе» (в редакции
+                                                    приказа от 29.09.2020 № 78) устанавливаются льготы в
+                                                    размере 50% по оплате услуг (работ), для следующих категорий граждан
+                                                    (при предъявлении оригинала документа, дающего
+                                                    право на льготы):
+                                                </p>
+                                                <ul class="public-services-block__lists">
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Героям Советского Союза,
+                                                        Героям Российской Федерации и полным кавалерам ордена Славы;
+                                                    </li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Героям труда Российской
+                                                        Федерации;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Героям Социалистического
+                                                        труда и полным кавалерам ордена Трудовой Славы;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Участникам Великой
+                                                        Отечественной войны 1941—1945 гг. и приравненным к ним
+                                                        категориям лиц;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Ветеранам боевых действий;
+                                                    </li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Гражданам, награжденным
+                                                        знаком «Почетный донор СССР» или «Почетный донор России» или
+                                                        «Почетный донор Москвы»;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Инвалидам I, II, III групп;
+                                                        инвалидам Великой Отечественной войны и иных боевых действий;
+                                                    </li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Жертвам политических
+                                                        репрессий;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Инвалидам I и II групп;
+                                                        инвалидам Великой Отечественной войны и иных боевых действий,
+                                                        детям — инвалидам;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Жертвам политических
+                                                        репрессий;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Лицам, подвергшимся
+                                                        воздействию радиации вследствие катастрофы на
+                                                        Чернобыльской АЭС, а также вследствие ядерных
+                                                        испытаний на Семипалатинском полигоне, и приравненным к ним
+                                                        категориям
+                                                        граждан;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Фондосдатчикам (физическим и
+                                                        юридическим лицам) по документам фондов,
+                                                        переданных ими на постоянное хранение в ГБУ «ЦГА
+                                                        Москвы» (до 01.04.2013 г. в Главархив Москвы), если иное не
+                                                        предусмотрено условиями Договора;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Студентам, использующим
+                                                        архивные документы для подготовки курсовых и
+                                                        дипломных работ, что подтверждено соответствующими
+                                                        письмами из учебных заведений;</li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Детям-сиротам до 18 лет.
+                                                    </li>
+                                                    <li class="public-services-block__list list-benefits-citizens">
+                                                        Родителям, опекунам
+                                                        (попечителям) ребенка-инвалида;</li>
+                                                    <li class="public-services-block__list">Многодетным родителям.</li>
+                                                </ul>
+
+
+                                            </div>
+                                            <!-- type-request-block remote-access-->
+                                            <div class="type-request-block remote-access">
+                                                <p class="type-request-block__title">При удалённом обращении</p>
+                                                <ul class="public-services-block__lists">
+                                                    <li class="public-services-block__list">
+                                                        Необходимо письменно подтвердить согласие на исполнение
+                                                        запроса(ов). Образец формы согласия размещен вместе с анкетой в
+                                                        разделе Формы и бланки заявлений.
+                                                    </li>
+                                                    <li class="public-services-block__list">
+                                                        Для получения в установленном порядке льготы при оплате
+                                                        оказанных услуг:
+                                                        <div class="public-services-block-list__subtitle-wrapper">
+                                                            <p>
+                                                                <span class="accent-words">— по e-mail.</span>
+                                                                Прикрепить к письму скан оригинала документа,
+                                                                подтверждающего право на льготу;
+                                                            </p>
+                                                            <p>
+                                                                <span class="accent-words">— через почту.</span>
+                                                                Приложить к письму копию документа, подтверждающего
+                                                                право на льготу.
+                                                            </p>
+                                                        </div>
+
+                                                    </li>
+                                                    <li class="public-services-block__list">
+                                                        Обращаем Ваше внимание, что в случае положительного результата
+                                                        поиска сначала в Ваш адрес будет выслана квитанция на
+                                                        оплату, с указанием стоимости оказанной услуги. Ответ будет
+                                                        направлен Вам при получении подтверждения оплаты.
+                                                    </li>
+                                                </ul>
+                                                <!-- thematic-requests-accepted-address__block -->
+                                                <div class="thematic-requests-accepted-address__block">
+                                                    <!-- thematic-requests-address-title__wrapper -->
+                                                    <div class="thematic-requests-address-title__wrapper">
+                                                        <p class="type-request-block__title">Тематические запросы
+                                                            принимаются в ГБУ «ЦГА Москвы» по адресу</p>
+                                                    </div>
+                                                    <!-- thematic-requests__address -->
+                                                    <div class="thematic-requests__address">
+                                                        <ul class="thematic-requests-address__lists">
+                                                            <li class="thematic-requests-address__list">
+                                                                <p class="requests-address__title">Адрес:</p>
+                                                                <p class="requests-address__subtitle accent-words">
+                                                                    117393, г. Москва,
+                                                                    ул. Профсоюзная, д. 80</p>
+                                                            </li>
+                                                            <li class="thematic-requests-address__list">
+                                                                <p class="time-receipt__block requests-address__title">
+                                                                    Время приема:</p>
+                                                                <div class="time-receipt__wrapper">
+                                                                    <p class="time-receipt-info">
+                                                                        <span>пн-чт:</span>
+                                                                        <span class="requests-address__subtitle">с 08:00
+                                                                            до 17:00</span>
+                                                                    </p>
+                                                                    <p class="time-receipt-info">
+                                                                        <span>пт:</span>
+                                                                        <span class="requests-address__subtitle">с 08:00
+                                                                            до 13:00</span>
+                                                                    </p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="thematic-requests-address__list">
+                                                                <p class="requests-address__title">Эл. почта:</p>
+                                                                <a
+                                                                    class="requests-address__email link-hover-line">cgam@archive.mos.ru</a>
+                                                            </li>
+                                                            <li class="thematic-requests-address__list">
+                                                                <p class="requests-address__title">Телефон:</p>
+                                                                <p class="requests-address__subtitle">
+                                                                    <a class="requests-address__tel link-hover-line"
+                                                                        href="tel:8(495)777-77-77">8(495)777-77-77</a>
+                                                                    <br>
+                                                                    <span
+                                                                        class="requests-address__tel-name requests-address__subtitle">
+                                                                        Единая справочная служба города Москвы
+                                                                    </span>
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--  -->
+                                            <div class="types-requests-accent-info__block-text">
+                                                <p class="types-requests-accent-info__subtitle">
+                                                    Информируем Вас, что в соответствии со ст. 16 Закона г. Москвы от
+                                                    28.11.2001 N 67 "Об Архивном фонде Москвы и архивах"
+                                                    документированная информация по объектам недвижимого имущества,
+                                                    относящимся к федеральной собственности, собственности
+                                                    города Москвы, муниципальной или частной собственности, в том числе
+                                                    по вопросам землепользования и (или)
+                                                    градостроительства на земельных участках, относящихся к федеральной
+                                                    собственности, собственности города Москвы,
+                                                    муниципальной или частной собственности, выдается с разрешения
+                                                    собственника или соответствующего уполномоченного органа
+                                                    исполнительной власти на основании письменных запросов.
+                                                </p>
+                                                <p class="types-requests-accent-info__subtitle">
+                                                    Для исполнения запроса о получении копий документов по объектам
+                                                    недвижимого имущества, находящихся на архивном хранении
+                                                    (за исключением фасадов объектов капитального строительства)
+                                                    необходимо предоставить:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <span class="accent-words">собственникам зданий</span>
+                                                        - подтверждение права собственности на интересующий объект;
+                                                    </li>
+                                                    <li>
+                                                        <span class="accent-words">собственникам зданий</span>
+                                                        - подтверждение права собственности на интересующий объект;
+                                                    </li>
+                                                    <li>
+                                                        <span class="accent-words">сособственникам зданий</span>
+                                                        - согласие остальных собственников;
+                                                    </li>
+                                                    <li>
+                                                        <span class="accent-words">собственникам помещения (доли
+                                                            помещения) в многоквартирном доме,
+                                                            являющимся по отношению к общему имуществу дома
+                                                            собственниками на праве общей долевой собственности</span>
+                                                        - согласие от всех собственников дома или соответствующего
+                                                        уполномоченного органа исполнительной власти, оформленное в
+                                                        установленном порядке.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- requests-tab__content -->
+                                    <div class="requests-tab__content">
+                                        <p class="requests-content__title">Записаться на приём</p>
+                                        <!-- thematic-requests-accepted-address__block -->
+                                        <div class="thematic-requests-accepted-address__block signup-appointment">
+                                            <!-- thematic-requests-address-title__wrapper -->
+                                            <div class="thematic-requests-address-map__wrapper signup-appointment">
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.7756842779813!2d37.53774461592687!3d55.65811038052817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54d240a45d3bd%3A0xc674ec7d5d5f70e!2z0YPQuy4g0J_RgNC-0YTRgdC-0Y7Qt9C90LDRjywgODAsINCc0L7RgdC60LLQsCwg0KDQvtGB0ZbRjywgMTE3Mzkz!5e0!3m2!1suk!2sua!4v1636307306979!5m2!1suk!2sua"
+                                                    width="100%" height="100%" style="border:0;" allowfullscreen=""
+                                                    loading="lazy"></iframe>
+                                            </div>
+                                            <!-- thematic-requests__address -->
+                                            <div class="thematic-requests__address signup-appointment">
+                                                <p class="requests__address-title">По вопросам личного приема
+                                                    тематических запросов от физических и юридических лиц следует
+                                                    обращаться по адресу:</p>
+                                                <ul class="thematic-requests-address__lists">
+                                                    <li class="thematic-requests-address__list">
+                                                        <p class="requests-address__title">Адрес:</p>
+                                                        <p class="requests-address__subtitle accent-words">
+                                                            117393, г. Москва,
+                                                            ул. Профсоюзная, д. 80</p>
+                                                    </li>
+                                                    <li class="thematic-requests-address__list">
+                                                        <p class="time-receipt__block requests-address__title">
+                                                            Время приема:</p>
+                                                        <div class="time-receipt__wrapper">
+                                                            <p class="time-receipt-info">
+                                                                <span>пн-чт:</span>
+                                                                <span class="requests-address__subtitle">с 08:00
+                                                                    до 17:00</span>
+                                                            </p>
+                                                            <p class="time-receipt-info">
+                                                                <span>пт:</span>
+                                                                <span class="requests-address__subtitle">с 08:00
+                                                                    до 13:00</span>
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="thematic-requests-address__list">
+                                                        <p class="requests-address__title">Эл. почта:</p>
+                                                        <a
+                                                            class="requests-address__email link-hover-line">cgam@archive.mos.ru</a>
+                                                    </li>
+                                                    <li class="thematic-requests-address__list">
+                                                        <p class="requests-address__title">Телефон:</p>
+                                                        <p class="requests-address__subtitle">
+                                                            <a class="requests-address__tel link-hover-line"
+                                                                href="tel:8(495)777-77-77">8(495)777-77-77</a>
+                                                            <br>
+                                                            <span
+                                                                class="requests-address__tel-name requests-address__subtitle">
+                                                                Единая справочная служба города Москвы
+                                                            </span>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- requests-tab__content -->
+                                    <div class="requests-tab__content">
+                                        <div class="requests-content__title-wrapper">
+                                            <p class="requests-content__title">Формы и бланки</p>
+                                            <div class="requests-search-docs-form__wrapper">
+                                                <form class="requests-search-documents-form" action="/">
+                                                    <input class="search-documents__input props-placeholder hover-input"
+                                                        type="text" placeholder="Поиск по документам">
+                                                    <button class="btn-search-registers btn-search-form btn-hover">
+                                                        <img src="img/magnifier-icon.svg" alt="magnifier-icon">
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <!-- requests-forms-tile__wrapper -->
+                                        <div class="requests-forms-tile__wrapper">
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета об актах гражданского состояния до 1917 года
+                                                        (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение полного текста актовой записи из
+                                                        метрической книги до 1917 г. (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации по жилищным
+                                                        вопросам (по решениям органов исполнительной власти
+                                                        Москвы) (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной копии учётной карточки
+                                                        члена КПСС (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации о
+                                                        переименовании улицы, населенного пункта (по решениям органов
+                                                        исполнительной власти Москвы) (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации о смене
+                                                        фамилии (только по решениям органов исполнительной власти) (на
+                                                        платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации о сносе дома
+                                                        (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации о сносе дома
+                                                        (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной информации об
+                                                        усыновлении/удочерении (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                            <!-- requests-forms__tile -->
+                                            <div class="requests-forms__tile hover-tile">
+                                                <!-- requests-forms-tile__title-wrapper -->
+                                                <div class="requests-forms-tile__title-wrapper">
+                                                    <p class="requests-forms-tile__title">
+                                                        Заявление-анкета на получение архивной копии ордера на жилое
+                                                        помещение (на платной основе)
+                                                    </p>
+                                                    <div class="requests-forms-tile__img"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- requests-tab__content -->
+                                    <div class="requests-tab__content">
+                                        <p class="requests-content__title">Форма обратной связи</p>
+                                        <!-- feedback-form__block -->
+                                        <div class="feedback-form__block">
+                                            <!-- requests-feedback__form -->
+                                            <form class="requests-feedback__form" action="/">
+                                                <!-- feedback-form-input__wrapper -->
+                                                <div class="feedback-form-input__wrapper">
+                                                    <input class="feedback-form__input" name="feedback-input__name"
+                                                        type="text" placeholder="ФИО">
+                                                    <input class="feedback-form__input" name="feedback-input__email"
+                                                        type="email" placeholder="Электронный адрес">
+                                                    <input class="feedback-form__input" name="feedback-input__phone"
+                                                        type="text" placeholder="Телефон">
+                                                    <!-- feedback-form__attach-file -->
+                                                    <div class="feedback-form__attach-file">
+                                                        <div class="add-file__block feedback-form__input">
+                                                            <label class="add-file__label" for="add-file">
+                                                                <div class="clip-icon-status"></div>
+                                                                Прикрепить файл
+                                                                <input id="add-file" name="add-file" type="file">
+                                                            </label>
+                                                            <div id="btn-delete-file" class="closs-cross-icon"></div>
+                                                        </div>
+                                                        <button
+                                                            class="btn-attach-file btn-general btn-deep-blue btn-hover">Прикрепить</button>
+                                                    </div>
+                                                </div>
+                                                <textarea class="feedback-form__input feedback-form__textarea" name=""
+                                                    id="" placeholder="Ваше сообщение"></textarea>
+                                                <!-- feedback-form-privacy-policy__agreement-block -->
+                                                <div class="feedback-form-privacy-policy__agreement-block">
+                                                    <input class="check-box-input"
+                                                        id="feedback-form-privacy-policy__agree" type="checkbox">
+                                                    <label class="check-box-label"
+                                                        for="feedback-form-privacy-policy__agree"></label>
+                                                    <p class="feedback-form-privacy-policy__agreement">Я согласен(-на) с
+                                                        <a class="feedback-form-privacy-policy__link link-hover-line"
+                                                            href="#">Политикой
+                                                            конфиденциальности</a>
+                                                    </p>
+                                                </div>
+                                                <button
+                                                    class="btn-feedback-form-send-message btn-general btn-deep-blue btn-hover">Отправить
+                                                    сообщение</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!-- Content end-->
+        <!-- Popup logout start-->
+        <div id="popup__logout" class="popup__enter-user">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu popup-logout">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <div class="popup__title">Вход</div>
+                    <div class="popup-form__block">
+                        <form class="popup__form">
+                            <input class="popup-phorm__input popup-input-email" type="email" placeholder="E-mail">
+                            <div class="popup-input-password__wrapper">
+                                <input class="popup-phorm__input popup-input-password" type="password"
+                                    placeholder="Пароль">
+                            </div>
+                            <p class="btn-forgot-password">Забыли пароль?</p>
+                            <button class="btn-logout btn-general btn-hover btn-deep-blue">Войти</button>
+                        </form>
+                    </div>
+                    <div class="opportunity-register__btn-block">
+                        <p class="opportunity-register-text">Нет аккаунта?</p>
+                        <button id="btn-register__user"
+                            class="btn-opportunity-register link-hover-line">Зарегистрируйтесь</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup__register-user" class="popup__register-user">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <!-- btn-mobile-close -->
+                    <div class="btn-close__mobile-menu popup-logout">
+                        <div class="btn-close-block"></div>
+                    </div>
+                    <div class="popup__title">Регистрация</div>
+                    <div class="popup-form__block">
+                        <form class="popup__form">
+                            <input class="popup-phorm__input popup-input-name" type="text" placeholder="Имя">
+                            <input class="popup-phorm__input popup-input-email" type="email" placeholder="E-mail">
+                            <div class="popup-input-password__wrapper">
+                                <input class="popup-phorm__input popup-input-password" type="password"
+                                    placeholder="Пароль">
+                            </div>
+                            <p class="btn-forgot-password">Забыли пароль?</p>
+                            <!-- feedback-form-privacy-policy__agreement-block -->
+                            <div class="register-form-privacy-policy__agreement-block">
+                                <input class="check-box-input" id="register-form-privacy-policy__agree" type="checkbox">
+                                <label class="check-box-label" for="register-form-privacy-policy__agree"></label>
+                                <p class="feedback-form-privacy-policy__agreement">Я согласен(-на) с
+                                    <a class="feedback-form-privacy-policy__link link-hover-line" href="#">Политикой
+                                        конфиденциальности</a>
+                                </p>
+                            </div>
+                            <button class="btn-register btn-general btn-hover btn-deep-blue">Зарегистрироваться</button>
+                        </form>
+                    </div>
+                    <div class="opportunity-register__btn-block">
+                        <p class="opportunity-register-text">Есть аккаунт?</p>
+                        <button id="btn-logout-popup" class="btn-opportunity-register link-hover-line">Войдите</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup logout end -->
+        <!-- Footer start-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <!-- Footer top -->
+                    <div class="footer-top__wrapper">
+                        <!-- Logo & Address block -->
+                        <div class="footer-logo-contact__wrapper">
+                            <!-- logo block -->
+                            <div class="logo-block">
+                                <!-- logo -->
+                                <div class="logo-img__block footer-logo-block">
+                                    <img src="img/logo-new-1.svg" alt="logo_archive">
+                                </div>
+                                <!-- header-content-title__block -->
+                                <div class="header-content-title__block">
+                                    <p class="header-content__title">Главархив Москвы</p>
+                                    <p class="header-content__subtitle">
+                                        Государственное бюджетное учреждение города Москвы
+                                        «Центральный государственный архив города Москвы»
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- address-block__wrapper -->
+                            <div class="address-block__wrapper">
+                                <!-- address block -->
+                                <div class="footer-address__block">117393, г. Москва, ул. Профсоюзная, д. 80</div>
+                                <!-- Working days & hours -->
+                                <ul class="working-days-hours__block">
+                                    <li class="working-days__item">
+                                        <span>пн-чт:</span>
+                                        <span>с 08:00 до 17:00</span>
+                                    </li>
+                                    <li class="working-days__item">
+                                        <span>пт:</span>
+                                        <span>с 08:00 до 13:00</span>
+                                    </li>
+                                </ul>
+                                <!-- Btn Contact us -->
+                                <div class="btn-contact-us__wrapper">
+                                    <button class="btn-contact-us btn-hover">Связаться с нами</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Footer menu block -->
+                        <div class="footer-menu__wrapper">
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Об архиве</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">История</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Документы</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Отделы хранения</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Уникальные документы</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Вакансии</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Торги</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Вопрос-Ответ</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Путеводители</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Фонды</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Описи</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Путеводители</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Деятельность</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Новые поступления</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Выставка одного документа</a>
+                                </li>
+                            </ul>
+
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Услуги и расценки</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Услуги и расценки</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Порядок работы</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Выставочный зал</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Читальный зал</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-menu__lists">
+                                <li class="footer-menu__item footer-menu__item-title">Запросы</li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Виды запросов</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Как подать запрос</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Записаться на приём</a>
+                                </li>
+                                <li class="footer-menu__item">
+                                    <a href="#" class="footer-menu__link link-hover">Формы и бланки заявлений</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Footer bottom -->
+                    <div class="footer-bottom__wrapper">
+                        <!-- Footer copyright -->
+                        <div class="footer-copyright">
+                            <p class="footer-copyright__text">
+                                © 2013-2021 Государственное бюджетное учреждение города Москвы «Центральный
+                                государственный архив города Москвы»
+                            </p>
+                        </div>
+                        <!-- Footer contact-info block -->
+                        <div class="footer-contact-info__wrapper">
+                            <!-- Author-link text -->
+                            <div class="footer-author-link">
+                                <p class="author-link__text">
+                                    При полном или частичном использовании материалов с сайта ГБУ «ЦГА Москвы» ссылка на
+                                    источник обязательна
+                                </p>
+                            </div>
+                            <!-- Email block -->
+                            <div class="footer-contact__email">
+                                <a class="footer__email link-hover-line"
+                                    href="mailto:cgam@archive.mos.ru">cgam@archive.mos.ru</a>
+                                <span>Эл. почта</span>
+                            </div>
+                            <!-- Phone block -->
+                            <div class="footer-contact__phone">
+                                <a class="footer__tel link-hover" href="tel:8 (495) 777-77-77">8(495)777-77-77</a>
+                                <span>Единая справочная служба г. Москвы</span>
+                            </div>
+                            <!-- Btn Found a bug -->
+                            <div class="btn-found-bug">Нашли ошибку?</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

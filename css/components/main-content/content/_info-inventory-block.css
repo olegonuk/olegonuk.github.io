@@ -1,0 +1,23 @@
+.info-inventory__block {
+    padding: 30px 32px;
+
+    border-radius: 4px;
+    background: var(--white-color);
+
+    margin-bottom: 30px;
+}
+.info-inventory__list {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+}
+.info-inventory__list:last-child {
+    margin-bottom: 0;
+}
+.list-title {
+    min-width: 80px;
+    color: var(--grey-blue-6-color);
+
+    margin-bottom: 6px;
+}

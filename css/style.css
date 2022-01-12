@@ -1,0 +1,14 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+@import "./components/header/_header.css";
+
+@import "./components/main-content/_main-content.css";
+
+@import "./components/footer/_footer.css";
+
+@import "_media_query.css";

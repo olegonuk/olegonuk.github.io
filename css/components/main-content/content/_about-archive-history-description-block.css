@@ -1,0 +1,41 @@
+.about-archive-history-description__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.archive-history-img__block {
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+.archive-history-desc__img {
+    max-width: 345px;
+    max-height: 243px;
+    width: 100%;
+    height: 100%;
+}
+.archive-history-desc__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.history-photo-caption__title {
+    color: var(--grey-blue-6-color);
+
+    margin-top: 12px;
+}
+.archive-history-desc__title {
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-bottom: 25px;
+}
+.archive-history-desc__subtitle {
+    font-size: 16px;
+
+    margin-bottom: 16px;
+}
+.archive-history-desc__subtitle:last-child {
+    margin-bottom: 0;
+}
